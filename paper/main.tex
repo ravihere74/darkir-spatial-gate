@@ -15,15 +15,11 @@
 
 % ---- TODO: replace the names / college below with your own ----
 \author{
-\IEEEauthorblockN{Your Name}
-\IEEEauthorblockA{Department of Computer Science and Engineering\\
-Your College Name, City, India\\
-your.email@example.com}
+\IEEEauthorblockN{Ravi Pal}
+\IEEEauthorblockA{2026PIT4222}
 \and
-\IEEEauthorblockN{Second Member Name}
-\IEEEauthorblockA{Department of Computer Science and Engineering\\
-Your College Name, City, India\\
-second.email@example.com}
+\IEEEauthorblockN{Nishant Saini}
+\IEEEauthorblockA{2026PIT4220}
 }
 
 \maketitle
@@ -211,7 +207,7 @@ Training in half precision (fp16) gave invalid values (NaN) and no learning; ful
 A 593-parameter gate added to a frozen DarkIR-m gave a small and consistent LPIPS improvement on the LOLBlur test set. It was repeated over two random seeds with the L1 loss and was larger with a loss containing SSIM and LPIPS terms. On average the gate applies slightly more of the last decoder block's correction, but the effect is only about 2\%, we could not connect its pattern to detail or brightness, and it did not clearly improve PSNR or SSIM. Because the constant-scale control is missing, the result does not show that spatially adaptive restoration strength is what helps. It only shows that this small add-on gives a marginal LPIPS gain. The obvious next steps are that control, more seeds for the combined loss, and a test on other low-light datasets.
 
 \section*{Code Availability}
-The code (gate module, training and evaluation scripts, a Colab notebook and a README) is at \url{https://github.com/YOUR-USERNAME/darkir-spatial-gate}. The gate module is a subclass of the original DarkIR class and no file of the original repository is changed.
+The code (gate module, training and evaluation scripts, a Colab notebook and a README) is at \url{https://github.com/ravihere74/darkir-spatial-gate}. The gate module is a subclass of the original DarkIR class and no file of the original repository is changed.
 
 \begin{thebibliography}{00}
 \bibitem{darkir} D. Feijoo, J. C. Benito, A. Garcia, and M. V. Conde, ``DarkIR: Robust low-light image restoration,'' in \textit{Proc. IEEE/CVF Conf. Computer Vision and Pattern Recognition (CVPR)}, 2025, pp. 10879--10889.
