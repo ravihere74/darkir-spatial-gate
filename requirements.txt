@@ -1,0 +1,10 @@
+# Install the original DarkIR requirements first (see README), then these extras:
+torch
+torchvision
+numpy
+pillow
+tqdm
+lpips
+ptflops
+pytorch-msssim
+huggingface_hub
