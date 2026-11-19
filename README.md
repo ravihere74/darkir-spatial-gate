@@ -8,7 +8,7 @@ frozen and only the gate is trained.
 **Short answer:** the gate gives a very small but repeatable improvement in LPIPS
 (0.16201 to 0.16191 with L1 loss, 0.16178 with a combined loss). PSNR and SSIM do not
 clearly change. The change cannot be seen by eye. Full details are in the paper:
-[`paper/main.pdf`](paper/AIML_Project.pdf).
+[`paper/AIML_Project.pdf`](paper/AIML_Project.pdf).
 
 ## What the gate does
 
